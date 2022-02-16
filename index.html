@@ -8,6 +8,72 @@
     <title>Ariasana</title>
 </head>
 <body>
-    <h1 class="font-mono">Ariasana</h1>
+    
+    <nav id="nav" class="p-14 flex flex-col gap-4 absolute top-0">
+        <div id="nav__logo" class="text-xl font-medium px-6 py-3 bg-white tracking-widest">
+            ARIASANA
+        </div>
+        <ul class="flex flex-col gap-2 text-white text-sm tracking-wider">
+            <li class="uppercase"><a class="" href="#home">Home</a></li>
+            <li class="uppercase"><a class="" href="#products">Products</a></li>
+            <li class="uppercase"><a class="" href="#about">About</a></li>
+            <li class="uppercase"><a class="" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="h-screen p-14 flex flex-col gap-8 justify-end bg-neutral-800 bg-[url('./assets/michael-schiffer-13UugSL9q7A-unsplash.jpg')] bg bg-cover bg-center bg-fixed">
+        <h1 id="slogan" class="text-6xl max-w-6xl">
+            <strong class="bg-white font-medium leading-[1.32em]">Better diagnostic for all <br> or another sentence</strong>
+        </h1>
+        <div class="flex gap-4">
+            <button class="border border-white px-4 py-2 text-white hover:invert hover:bg-black">call to action</button>
+            <button class="border border-white px-4 py-2 text-white hover:invert hover:bg-black">call to action</button>
+        </div>
+    </header>
+    <body>
+        <section id="products" class="p-14 my-20 flex flex-col gap-4">
+            <h2 class="uppercase">products</h2>
+            <div class="section-description flex flex-col gap-4">
+                <div class="intro text-5xl font-medium max-w-6xl">
+                    Ariasana provides tools and products locally based on users needs to empower local communities into accomplishing better diagnostics for all.
+                </div>
+                <div class="description flex py-4 gap-8 columns-2 ">
+                    <p class="w-1/2">
+                        Optical microscopes are the cause of discomfort and fatigue for lab technicians leading to diagnostics of lower quality. To tackle that, we propose today to make microscope digital at minimum cost.
+                    </p>
+                    <p class="w-1/2">
+                        Besides providing tech tools, to accomplish our mission right, we implement programs for user training sessions by building a platform connecting software engineers and scientists of the world, to give them the opportunity to grow their skills.
+                    </p>
+                </div>
+            </div>
+            <div class="section-content">
+                <!-- liste des produits -->
+                <ul id="products" class="flex gap-8">
+                    <!-- produit -->
+                        <li class="product border flex-1 p-10 flex flex-col gap-4 bg-cover bg-center text-white" style="background: linear-gradient( rgba(26, 26, 26, 0.9),60%, rgba(32, 32, 32, 0.164)), url('./assets/microscope.jpg') no-repeat center/cover">
+                            <h3 class="">The Digitizer</h3>
+                            <p>
+                                Microscopy is the gold standard, one of the cheapest and the most available methods of diagnostic but it is difficult to use.
+                            </p>
+                            <p>
+                                With our digitizer, we make your microscope digital to unlock better care for your patients.
+                            </p>
+                            
+                            <p>
+                                Lab technicians can now look at samples directly on a screen instead of eyepieces and are able to take snapshots of what they see, analyze the images using image processing tools, report the results easily and share them with their colleagues and clinicians.
+                            </p>
+                            <p>
+                                The digitizer is adaptable to existing microscopes.
+                            </p>
+                            <button class="border border-white px-4 py-2 text-white hover:invert hover:bg-black mt-40">call to action</button>
+                        </li>
+                        <li class="border flex-1 p-10 gap-4">
+                            <h3></h3>
+                            <p></p>
+                            <button></button>
+                        </li>
+                </ul>
+            </div>
+        </section>
+    </body>
 </body>
 </html>
